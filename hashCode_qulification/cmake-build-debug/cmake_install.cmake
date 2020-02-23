@@ -1,4 +1,4 @@
-# Install script for directory: /home/gautam/Documents/hashCode_qulification
+# Install script for directory: /home/gautam/Documents/Google-hashcode2020/hashCode_qulification
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gautam/Documents/hashCode_qulification/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gautam/Documents/Google-hashcode2020/hashCode_qulification/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gautam/Documents/hashCode_qulification/main.cpp" "/home/gautam/Documents/hashCode_qulification/cmake-build-debug/CMakeFiles/hashCode_qulification.dir/main.cpp.o"
+  "/home/gautam/Documents/Google-hashcode2020/hashCode_qulification/main.cpp" "/home/gautam/Documents/Google-hashcode2020/hashCode_qulification/cmake-build-debug/CMakeFiles/hashCode_qulification.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

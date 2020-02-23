@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/gautam/Documents/hashCode_qulification/main.cpp
+/home/gautam/Documents/Google-hashcode2020/hashCode_qulification/main.cpp
 iostream
 -
 cstdlib
+-
+fstream
+-
+string
 -
 
