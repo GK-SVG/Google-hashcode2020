@@ -60,7 +60,7 @@ int  main()
            file>>parameters[k][i];
         }
 
-                        //***Assigning books to library***
+                        //***Assigning books index to library***
         if (k==count)
         {
             for (int j = 0; j < parameters[k][0]; ++j)
@@ -70,11 +70,12 @@ int  main()
             count++;
         }
     }
-
+                   
+                              //***Algorithm for signup and scan process
     int count1=0,totaldays4issue;
     for (int m = 0; m < totalLib; ++m)
     {
-        totalDays-=parameters[m][1];
+        totalDays-=parameters[m][1];   //  <=== **dicreasing totaldays after singup of libraries
         totaldays4issue= totalDays;
         if(totalDays>0)
         {
@@ -90,14 +91,13 @@ int  main()
                       count1+=parameters[m][2];     
                     }
                     
-                
             }
             totallibout[m]=count1;
             count1=0;
         }
     }
 
-    //cout<<endl;
+                          //***Output of every library
     cout<<totalLib<<endl;
     for (int n = 0; n <totalLib; ++n)
     {
